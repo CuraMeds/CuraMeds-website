@@ -226,9 +226,10 @@ nav.links a.active{color:var(--navy);border-bottom:2px solid var(--teal);}
 @media (max-width:700px){.team-grid{grid-template-columns:1fr;}}
 .team-card{background:var(--white);border:1px solid var(--border);border-radius:10px;padding:28px;display:flex;gap:16px;align-items:flex-start;}
 .team-avatar{
-  width:52px;height:52px;border-radius:50%;background:var(--navy);color:var(--teal);
-  display:flex;align-items:center;justify-content:center;font-weight:700;font-size:16px;flex-shrink:0;border:1px solid var(--teal);
+  width:72px;height:72px;border-radius:50%;background:var(--navy);color:var(--teal);
+  display:flex;align-items:center;justify-content:center;font-weight:700;font-size:16px;flex-shrink:0;border:2px solid var(--teal);
 }
+.team-avatar img{width:100%;height:100%;border-radius:50%;object-fit:cover;display:block;}
 .team-name{font-size:16.5px;font-weight:700;color:var(--navy);}
 .team-role{font-size:13.5px;color:var(--teal);font-weight:600;margin-top:2px;}
 .team-bio{font-size:13.5px;color:var(--mgray);margin-top:8px;line-height:1.6;}
